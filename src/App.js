@@ -4,6 +4,7 @@ import Contact from "./components/Contact/Contact";
 import Footer from "./components/Footer/Footer";
 import Nav from "./components/Header/Nav";
 import Home from "./components/HomeComponent/Home";
+import Skill from "./components/Skill/Skill";
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
       <About className='col-span-8 col-start-4 mt-24 h-screen'>
         About section
       </About>
+      <Skill className='col-span-8 col-start-4 mt-24 h-screen'>
+        Skill Section
+      </Skill>
     </div>
   );
 }

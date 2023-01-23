@@ -7,7 +7,7 @@ import { BiHeadphone } from "react-icons/bi";
 
 const About = (props) => {
   return (
-    <section className={props.className + " grid gap-4 "}>
+    <section className={props.className + " grid gap-4 "} id='about'>
       <div className='self-center'>
         <h1 className='text-center text-5xl font-medium text-zinc-800'>
           About me
@@ -39,14 +39,14 @@ const About = (props) => {
             <div className='flex flex-col items-start justify-center'>
               <BiHeadphone className='h-7 w-7 fill-zinc-800'></BiHeadphone>
               <p>Support</p>
-              <p>Office Hours</p>
+              <p>Not Available</p>
             </div>
           </div>
-          <p className='mb-8'>
+          <p className='mb-8 text-xl'>
             I am a beginner front-end developer and college student
           </p>
           <Button className='w-auto rounded-md bg-zinc-700 px-5 text-white hover:bg-zinc-600'>
-            Download CV
+            <a href='https://github.com/TuanAnh45468'>My Github</a>
           </Button>
         </div>
       </div>

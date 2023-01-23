@@ -4,7 +4,7 @@ import { FaRegHandPaper } from "react-icons/fa";
 
 const Home = (props) => {
   return (
-    <main className={props.className}>
+    <main className={props.className} id='main'>
       <section className='flex shrink items-center justify-center gap-8'>
         <div>
           <div className='text-5xl font-medium text-zinc-800'>
