@@ -1,7 +1,5 @@
 import "./App.css";
 import About from "./components/About/About";
-import Contact from "./components/Contact/Contact";
-import Footer from "./components/Footer/Footer";
 import Nav from "./components/Header/Nav";
 import Home from "./components/HomeComponent/Home";
 import Skill from "./components/Skill/Skill";
